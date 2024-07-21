@@ -1,0 +1,3 @@
+word = print(str("Enter your word ")
+
+print(len(word)

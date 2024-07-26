@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class SalesCommissionCalculator{
+	public static void main(String[] args){
+
+		Scanner input = new Scanner(System.in);
+		
+		int payPerWeek = 200;
+		int counter = 0;
+		double salesEarnings = 0;
+
+	while(counter < 20){
+		System.out.print("Enter sales value ");
+		double sales = input.nextDouble();
+
+		double commission = 0.09 * sales;
+		System.out.println("commission on sales is "+commission);
+		salesEarnings = commission + payPerWeek;
+		System.out.println("weekly sales earnings "+salesEarnings);
+
+
+		
+		counter = counter +1;
+
+
+		}
+
+
+	}
+
+
+}

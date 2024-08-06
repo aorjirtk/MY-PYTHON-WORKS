@@ -16,4 +16,4 @@ def get_sortedNumbers(num1,num2,num3):
 		large_num = num1
 	return least_num,small_num,large_num
 
-print(get_sortedNumbers(5,7,2))
+print(get_sortedNumbers(9,2,1))
